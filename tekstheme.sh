@@ -18,7 +18,7 @@ git config --global core.editor vim
 
 # vim
 
-if [ ! -a $HOME/.vimrc ]
+if [ ! -e $HOME/.vimrc ]
 then
 
 cat << 'eof' > ~/.vimrc
